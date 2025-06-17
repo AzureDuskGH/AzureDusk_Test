@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/device_manager.dir/src/main.cpp.o CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o -o device_manager 
