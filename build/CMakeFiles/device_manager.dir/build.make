@@ -69,47 +69,91 @@ include CMakeFiles/device_manager.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/device_manager.dir/flags.make
 
+device_manager_autogen/timestamp: /home/adc/Qt/6.9.1/gcc_64/libexec/moc
+device_manager_autogen/timestamp: /home/adc/Qt/6.9.1/gcc_64/libexec/uic
+device_manager_autogen/timestamp: CMakeFiles/device_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target device_manager"
+	/usr/bin/cmake -E cmake_autogen /home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles/device_manager_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E touch /home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/timestamp
+
+CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o: CMakeFiles/device_manager.dir/flags.make
+CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o: device_manager_autogen/mocs_compilation.cpp
+CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o: CMakeFiles/device_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o -MF CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/mocs_compilation.cpp
+
+CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/mocs_compilation.cpp > CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/mocs_compilation.cpp -o CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/device_manager.dir/src/main.cpp.o: CMakeFiles/device_manager.dir/flags.make
 CMakeFiles/device_manager.dir/src/main.cpp.o: /home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp
 CMakeFiles/device_manager.dir/src/main.cpp.o: CMakeFiles/device_manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/device_manager.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/device_manager.dir/src/main.cpp.o -MF CMakeFiles/device_manager.dir/src/main.cpp.o.d -o CMakeFiles/device_manager.dir/src/main.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/device_manager.dir/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/device_manager.dir/src/main.cpp.o -MF CMakeFiles/device_manager.dir/src/main.cpp.o.d -o CMakeFiles/device_manager.dir/src/main.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp
 
 CMakeFiles/device_manager.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/device_manager.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp > CMakeFiles/device_manager.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp > CMakeFiles/device_manager.dir/src/main.cpp.i
 
 CMakeFiles/device_manager.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/device_manager.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp -o CMakeFiles/device_manager.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp -o CMakeFiles/device_manager.dir/src/main.cpp.s
 
 CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o: CMakeFiles/device_manager.dir/flags.make
 CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o: /home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp
 CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o: CMakeFiles/device_manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o -MF CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o.d -o CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o -MF CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o.d -o CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp
 
 CMakeFiles/device_manager.dir/src/DeviceManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/device_manager.dir/src/DeviceManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp > CMakeFiles/device_manager.dir/src/DeviceManager.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp > CMakeFiles/device_manager.dir/src/DeviceManager.cpp.i
 
 CMakeFiles/device_manager.dir/src/DeviceManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/device_manager.dir/src/DeviceManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp -o CMakeFiles/device_manager.dir/src/DeviceManager.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp -o CMakeFiles/device_manager.dir/src/DeviceManager.cpp.s
+
+CMakeFiles/device_manager.dir/src/MainWindow.cpp.o: CMakeFiles/device_manager.dir/flags.make
+CMakeFiles/device_manager.dir/src/MainWindow.cpp.o: /home/adc/VS_Code_File/AzureDusk_Test_Local/src/MainWindow.cpp
+CMakeFiles/device_manager.dir/src/MainWindow.cpp.o: CMakeFiles/device_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/device_manager.dir/src/MainWindow.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/device_manager.dir/src/MainWindow.cpp.o -MF CMakeFiles/device_manager.dir/src/MainWindow.cpp.o.d -o CMakeFiles/device_manager.dir/src/MainWindow.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/MainWindow.cpp
+
+CMakeFiles/device_manager.dir/src/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/device_manager.dir/src/MainWindow.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adc/VS_Code_File/AzureDusk_Test_Local/src/MainWindow.cpp > CMakeFiles/device_manager.dir/src/MainWindow.cpp.i
+
+CMakeFiles/device_manager.dir/src/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/device_manager.dir/src/MainWindow.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adc/VS_Code_File/AzureDusk_Test_Local/src/MainWindow.cpp -o CMakeFiles/device_manager.dir/src/MainWindow.cpp.s
 
 # Object files for target device_manager
 device_manager_OBJECTS = \
+"CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/device_manager.dir/src/main.cpp.o" \
-"CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o"
+"CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o" \
+"CMakeFiles/device_manager.dir/src/MainWindow.cpp.o"
 
 # External object files for target device_manager
 device_manager_EXTERNAL_OBJECTS =
 
+device_manager: CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o
 device_manager: CMakeFiles/device_manager.dir/src/main.cpp.o
 device_manager: CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o
+device_manager: CMakeFiles/device_manager.dir/src/MainWindow.cpp.o
 device_manager: CMakeFiles/device_manager.dir/build.make
+device_manager: /home/adc/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1
+device_manager: /home/adc/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1
+device_manager: /usr/lib/x86_64-linux-gnu/libGLX.so
+device_manager: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+device_manager: /home/adc/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1
 device_manager: CMakeFiles/device_manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable device_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable device_manager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/device_manager.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -E copy_if_different /home/adc/VS_Code_File/AzureDusk_Test_Local/data/device_params.json /home/adc/VS_Code_File/AzureDusk_Test_Local/build/data/device_params.json
 
@@ -121,7 +165,7 @@ CMakeFiles/device_manager.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/device_manager.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/device_manager.dir/clean
 
-CMakeFiles/device_manager.dir/depend:
+CMakeFiles/device_manager.dir/depend: device_manager_autogen/timestamp
 	cd /home/adc/VS_Code_File/AzureDusk_Test_Local/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adc/VS_Code_File/AzureDusk_Test_Local /home/adc/VS_Code_File/AzureDusk_Test_Local /home/adc/VS_Code_File/AzureDusk_Test_Local/build /home/adc/VS_Code_File/AzureDusk_Test_Local/build /home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles/device_manager.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/device_manager.dir/depend
 

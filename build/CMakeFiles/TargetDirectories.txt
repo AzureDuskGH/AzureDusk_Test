@@ -1,3 +1,5 @@
 /home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles/device_manager.dir
 /home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles/edit_cache.dir
 /home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles/rebuild_cache.dir
+/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles/device_manager_autogen_timestamp_deps.dir
+/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles/device_manager_autogen.dir

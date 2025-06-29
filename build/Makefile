@@ -129,6 +129,56 @@ device_manager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_manager.dir/build.make CMakeFiles/device_manager.dir/build
 .PHONY : device_manager/fast
 
+#=============================================================================
+# Target rules for targets named device_manager_autogen_timestamp_deps
+
+# Build rule for target.
+device_manager_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device_manager_autogen_timestamp_deps
+.PHONY : device_manager_autogen_timestamp_deps
+
+# fast build rule for target.
+device_manager_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_manager_autogen_timestamp_deps.dir/build.make CMakeFiles/device_manager_autogen_timestamp_deps.dir/build
+.PHONY : device_manager_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named device_manager_autogen
+
+# Build rule for target.
+device_manager_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device_manager_autogen
+.PHONY : device_manager_autogen
+
+# fast build rule for target.
+device_manager_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_manager_autogen.dir/build.make CMakeFiles/device_manager_autogen.dir/build
+.PHONY : device_manager_autogen/fast
+
+device_manager_autogen/mocs_compilation.o: device_manager_autogen/mocs_compilation.cpp.o
+.PHONY : device_manager_autogen/mocs_compilation.o
+
+# target to build an object file
+device_manager_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_manager.dir/build.make CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o
+.PHONY : device_manager_autogen/mocs_compilation.cpp.o
+
+device_manager_autogen/mocs_compilation.i: device_manager_autogen/mocs_compilation.cpp.i
+.PHONY : device_manager_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+device_manager_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_manager.dir/build.make CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.i
+.PHONY : device_manager_autogen/mocs_compilation.cpp.i
+
+device_manager_autogen/mocs_compilation.s: device_manager_autogen/mocs_compilation.cpp.s
+.PHONY : device_manager_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+device_manager_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_manager.dir/build.make CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.s
+.PHONY : device_manager_autogen/mocs_compilation.cpp.s
+
 src/DeviceManager.o: src/DeviceManager.cpp.o
 .PHONY : src/DeviceManager.o
 
@@ -152,6 +202,30 @@ src/DeviceManager.s: src/DeviceManager.cpp.s
 src/DeviceManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_manager.dir/build.make CMakeFiles/device_manager.dir/src/DeviceManager.cpp.s
 .PHONY : src/DeviceManager.cpp.s
+
+src/MainWindow.o: src/MainWindow.cpp.o
+.PHONY : src/MainWindow.o
+
+# target to build an object file
+src/MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_manager.dir/build.make CMakeFiles/device_manager.dir/src/MainWindow.cpp.o
+.PHONY : src/MainWindow.cpp.o
+
+src/MainWindow.i: src/MainWindow.cpp.i
+.PHONY : src/MainWindow.i
+
+# target to preprocess a source file
+src/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_manager.dir/build.make CMakeFiles/device_manager.dir/src/MainWindow.cpp.i
+.PHONY : src/MainWindow.cpp.i
+
+src/MainWindow.s: src/MainWindow.cpp.s
+.PHONY : src/MainWindow.s
+
+# target to generate assembly for a file
+src/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_manager.dir/build.make CMakeFiles/device_manager.dir/src/MainWindow.cpp.s
+.PHONY : src/MainWindow.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -185,10 +259,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... device_manager_autogen"
+	@echo "... device_manager_autogen_timestamp_deps"
 	@echo "... device_manager"
+	@echo "... device_manager_autogen/mocs_compilation.o"
+	@echo "... device_manager_autogen/mocs_compilation.i"
+	@echo "... device_manager_autogen/mocs_compilation.s"
 	@echo "... src/DeviceManager.o"
 	@echo "... src/DeviceManager.i"
 	@echo "... src/DeviceManager.s"
+	@echo "... src/MainWindow.o"
+	@echo "... src/MainWindow.i"
+	@echo "... src/MainWindow.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

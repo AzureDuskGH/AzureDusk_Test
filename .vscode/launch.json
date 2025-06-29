@@ -5,7 +5,7 @@
       "name": "Debug DeviceManager",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/device_manager", // 可执行文件路径
+      "program": "${workspaceFolder}/build/device_manager",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
@@ -19,7 +19,8 @@
           "ignoreFailures": true
         }
       ],
-      "preLaunchTask": "Build with GCC" // 需与tasks.json的label一致
+      "preLaunchTask": "Build with GCC",
+      "visualizerFile": "/home/adc/.config/Code/User/workspaceStorage/8b9fd6f3466202d2d7bf5922185bb830/tonka3000.qtvsctools/qt.natvis.xml"
     }
   ]
 }

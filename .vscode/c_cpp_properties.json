@@ -4,13 +4,15 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/include"
+                "/home/adc/Qt/6.9.1/gcc_64/include",
+                "/home/adc/Qt/6.9.1/gcc_64/include/QtWidgets",
+                "/home/adc/Qt/6.9.1/gcc_64/include/QtCore",
+                "/home/adc/Qt/6.9.1/gcc_64/include/QtGui"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
-            "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "linux-gcc-x64"
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4

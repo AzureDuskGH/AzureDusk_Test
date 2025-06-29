@@ -1,8 +1,13 @@
+#include <QApplication>
+#include "MainWindow.h"
 #include "DeviceManager.h"
 #include <iostream>
 #include <cstdlib>
 
-int main() {
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
+    MainWindow w;
+
     // 配置文件路径：项目目录下的data文件夹
     DeviceManager manager("data/device_params.json");
     
@@ -13,6 +18,7 @@ int main() {
     std::cout << "4. 保存并退出\n";
     
     int choice;
+    
     while (true) {
         std::cout << "\n请输入选项: ";
         std::cin >> choice;
@@ -53,4 +59,7 @@ int main() {
             std::cerr << "错误: " << e.what() << "\n";
         }
     }
+
+    w.show();
+    return app.exec();
 }

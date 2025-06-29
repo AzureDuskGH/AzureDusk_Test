@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "device_manager_autogen/timestamp" "custom" "device_manager_autogen/deps"
+  "/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/mocs_compilation.cpp" "CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o.d"
   "/home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp" "CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o" "gcc" "CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o.d"
+  "/home/adc/VS_Code_File/AzureDusk_Test_Local/src/MainWindow.cpp" "CMakeFiles/device_manager.dir/src/MainWindow.cpp.o" "gcc" "CMakeFiles/device_manager.dir/src/MainWindow.cpp.o.d"
   "/home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp" "CMakeFiles/device_manager.dir/src/main.cpp.o" "gcc" "CMakeFiles/device_manager.dir/src/main.cpp.o.d"
   )
 

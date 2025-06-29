@@ -5,7 +5,7 @@
 #include <vector>
 #include "json.hpp"
 
-using json = nlohmann::json;
+using json = nlohmann::json; //将nlohmann::json简化为json，方便使用
 
 class DeviceManager {
 public:
@@ -18,7 +18,7 @@ public:
     };
     
     // 构造函数
-    explicit DeviceManager(const std::string& config_path);
+    explicit DeviceManager(const std::string& config_path);//explicit禁止隐式转换
     
     // 成员函数
     void update_parameter(const std::string& key, const json& value);
