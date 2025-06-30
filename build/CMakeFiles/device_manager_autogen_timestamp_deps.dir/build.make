@@ -66,11 +66,11 @@ include CMakeFiles/device_manager_autogen_timestamp_deps.dir/compiler_depend.mak
 # Include the progress variables for this target.
 include CMakeFiles/device_manager_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/device_manager_autogen_timestamp_deps: /home/adc/Qt/6.9.1/gcc_64/libexec/uic
-CMakeFiles/device_manager_autogen_timestamp_deps: /home/adc/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1
-CMakeFiles/device_manager_autogen_timestamp_deps: /home/adc/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1
-CMakeFiles/device_manager_autogen_timestamp_deps: /home/adc/Qt/6.9.1/gcc_64/libexec/moc
-CMakeFiles/device_manager_autogen_timestamp_deps: /home/adc/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1
+CMakeFiles/device_manager_autogen_timestamp_deps: /usr/lib/qt5/bin/uic
+CMakeFiles/device_manager_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
+CMakeFiles/device_manager_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
+CMakeFiles/device_manager_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
+CMakeFiles/device_manager_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 
 device_manager_autogen_timestamp_deps: CMakeFiles/device_manager_autogen_timestamp_deps
 device_manager_autogen_timestamp_deps: CMakeFiles/device_manager_autogen_timestamp_deps.dir/build.make

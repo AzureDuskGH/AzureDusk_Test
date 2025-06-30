@@ -1,25 +1,25 @@
 [
 {
   "directory": "/home/adc/VS_Code_File/AzureDusk_Test_Local/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/include -I/home/adc/VS_Code_File/AzureDusk_Test_Local/include -isystem /home/adc/Qt/6.9.1/gcc_64/include -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/adc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/mocs_compilation.cpp",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/include -I/home/adc/VS_Code_File/AzureDusk_Test_Local/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/mocs_compilation.cpp",
   "file": "/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/device_manager.dir/device_manager_autogen/mocs_compilation.cpp.o"
 },
 {
   "directory": "/home/adc/VS_Code_File/AzureDusk_Test_Local/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/include -I/home/adc/VS_Code_File/AzureDusk_Test_Local/include -isystem /home/adc/Qt/6.9.1/gcc_64/include -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/adc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/device_manager.dir/src/main.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/include -I/home/adc/VS_Code_File/AzureDusk_Test_Local/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/device_manager.dir/src/main.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp",
   "file": "/home/adc/VS_Code_File/AzureDusk_Test_Local/src/main.cpp",
   "output": "CMakeFiles/device_manager.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/adc/VS_Code_File/AzureDusk_Test_Local/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/include -I/home/adc/VS_Code_File/AzureDusk_Test_Local/include -isystem /home/adc/Qt/6.9.1/gcc_64/include -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/adc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/include -I/home/adc/VS_Code_File/AzureDusk_Test_Local/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp",
   "file": "/home/adc/VS_Code_File/AzureDusk_Test_Local/src/DeviceManager.cpp",
   "output": "CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o"
 },
 {
   "directory": "/home/adc/VS_Code_File/AzureDusk_Test_Local/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/include -I/home/adc/VS_Code_File/AzureDusk_Test_Local/include -isystem /home/adc/Qt/6.9.1/gcc_64/include -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/adc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/device_manager.dir/src/MainWindow.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/MainWindow.cpp",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/include -I/home/adc/VS_Code_File/AzureDusk_Test_Local/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/device_manager.dir/src/MainWindow.cpp.o -c /home/adc/VS_Code_File/AzureDusk_Test_Local/src/MainWindow.cpp",
   "file": "/home/adc/VS_Code_File/AzureDusk_Test_Local/src/MainWindow.cpp",
   "output": "CMakeFiles/device_manager.dir/src/MainWindow.cpp.o"
 }

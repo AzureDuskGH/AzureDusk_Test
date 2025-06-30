@@ -2,6 +2,16 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "uic: 生成 ui_MainWindow.h",
+            "type": "shell",
+            "command": "uic ui/MainWindow.ui -o include/ui_MainWindow.h",
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always"
+            }
+        },
+        {
             "type": "cppbuild",
             "label": "Build with GCC",
             "command": "/usr/bin/g++",

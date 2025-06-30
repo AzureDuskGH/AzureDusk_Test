@@ -514,10 +514,6 @@
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
 				}
@@ -1514,6 +1510,18 @@
 			"value" : "[/usr/include][v()]"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_XKB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding XKB"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/lib/x86_64-linux-gnu/libxkbcommon.so][/usr/include][v1.6.0(0.5.0)]"
+		},
+		{
 			"name" : "HAVE_STDATOMIC",
 			"properties" : 
 			[
@@ -1539,7 +1547,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "OPENGL_EGL_INCLUDE_DIR-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "OPENGL_GLES2_INCLUDE_DIR",
@@ -1619,7 +1627,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "OPENGL_egl_LIBRARY-NOTFOUND"
+			"value" : "/usr/lib/x86_64-linux-gnu/libEGL.so"
 		},
 		{
 			"name" : "OPENGL_gles2_LIBRARY",
@@ -1667,7 +1675,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "OPENGL_glu_LIBRARY-NOTFOUND"
+			"value" : "/usr/lib/x86_64-linux-gnu/libGLU.so"
 		},
 		{
 			"name" : "OPENGL_glx_LIBRARY",
@@ -2266,6 +2274,42 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "QT_FEATURE_alloca",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: alloca (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_alloca_h",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: alloca_h (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_alloca_malloc_h",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: alloca_malloc_h (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "QT_FEATURE_android_style_assets",
 			"properties" : 
 			[
@@ -2512,6 +2556,30 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: buttongroup (from target Qt6::Widgets)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_c11",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: c11 (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_c99",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: c99 (from target Qt6::Core)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -2782,6 +2850,18 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "QT_FEATURE_cxx11",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: cxx11 (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
 			"name" : "QT_FEATURE_cxx11_future",
 			"properties" : 
 			[
@@ -2794,12 +2874,48 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "QT_FEATURE_cxx14",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: cxx14 (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_cxx17",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: cxx17 (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
 			"name" : "QT_FEATURE_cxx17_filesystem",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: cxx17_filesystem (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_cxx1z",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: cxx1z (from target Qt6::Core)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -3442,6 +3558,18 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "QT_FEATURE_eventfd",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: eventfd (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
 			"name" : "QT_FEATURE_f16c",
 			"properties" : 
 			[
@@ -3658,6 +3786,18 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "QT_FEATURE_futimes",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: futimes (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "QT_FEATURE_future",
 			"properties" : 
 			[
@@ -3748,6 +3888,18 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: glib (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_glibc",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: glibc (from target Qt6::Core)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -4267,7 +4419,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_libinput_axis_api",
@@ -4279,7 +4431,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_libinput_hires_wheel_support",
@@ -4291,7 +4443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_library",
@@ -4327,7 +4479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_lineedit",
@@ -4555,7 +4707,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_mips_dsp",
@@ -4603,7 +4755,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_multiprocess",
@@ -4648,6 +4800,18 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: no_direct_extern_access (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "QT_FEATURE_no_prefix",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: no_prefix (from target Qt6::Core)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -5251,7 +5415,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_relro_now_linker",
@@ -5299,7 +5463,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_rubberband",
@@ -5359,7 +5523,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_sessionmanager",
@@ -5650,6 +5814,18 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "QT_FEATURE_stack_protector_strong",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: stack_protector_strong (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "QT_FEATURE_stackedwidget",
 			"properties" : 
 			[
@@ -5704,6 +5880,18 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: statustip (from target Qt6::Widgets)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_statx",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: statx (from target Qt6::Core)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -5863,7 +6051,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_system_freetype",
@@ -5887,7 +6075,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_system_jpeg",
@@ -5899,7 +6087,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_system_libb2",
@@ -5911,7 +6099,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_system_pcre2",
@@ -5923,7 +6111,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_system_png",
@@ -5935,7 +6123,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_system_textmarkdownreader",
@@ -5947,7 +6135,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_system_xcb_xinput",
@@ -6379,7 +6567,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_tuiotouch",
@@ -6787,7 +6975,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "QT_FEATURE_xcb_xlib",
@@ -6910,6 +7098,66 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "Qt5Core_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5Core."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core"
+		},
+		{
+			"name" : "Qt5Gui_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5Gui."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui"
+		},
+		{
+			"name" : "Qt5Widgets_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5Widgets."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets"
+		},
+		{
+			"name" : "Qt5_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5"
+		},
+		{
+			"name" : "Qt6COMPONENTSCore_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt6COMPONENTSCore."
+				}
+			],
+			"type" : "PATH",
+			"value" : "Qt6COMPONENTSCore_DIR-NOTFOUND"
+		},
+		{
 			"name" : "Qt6CorePrivate_DIR",
 			"properties" : 
 			[
@@ -6931,7 +7179,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/adc/Qt/6.9.1/gcc_64/lib/cmake/Qt6CoreTools"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools"
 		},
 		{
 			"name" : "Qt6Core_DIR",
@@ -6943,7 +7191,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/adc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Core"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt6Core"
 		},
 		{
 			"name" : "Qt6DBusPrivate_DIR",
@@ -6967,7 +7215,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/adc/Qt/6.9.1/gcc_64/lib/cmake/Qt6DBusTools"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools"
 		},
 		{
 			"name" : "Qt6DBus_DIR",
@@ -6979,7 +7227,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/adc/Qt/6.9.1/gcc_64/lib/cmake/Qt6DBus"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus"
 		},
 		{
 			"name" : "Qt6GuiPrivate_DIR",
@@ -7003,7 +7251,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/adc/Qt/6.9.1/gcc_64/lib/cmake/Qt6GuiTools"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools"
 		},
 		{
 			"name" : "Qt6Gui_DIR",
@@ -7015,7 +7263,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/adc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Gui"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt6Gui"
 		},
 		{
 			"name" : "Qt6WidgetsPrivate_DIR",
@@ -7039,7 +7287,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/adc/Qt/6.9.1/gcc_64/lib/cmake/Qt6WidgetsTools"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools"
 		},
 		{
 			"name" : "Qt6Widgets_DIR",
@@ -7051,7 +7299,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/adc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets"
 		},
 		{
 			"name" : "Qt6_DIR",
@@ -7063,7 +7311,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/adc/Qt/6.9.1/gcc_64/lib/cmake/Qt6"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt6"
 		},
 		{
 			"name" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",

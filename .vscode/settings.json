@@ -61,6 +61,7 @@
         "qmainwindow": "cpp",
         "qapplication": "cpp",
         "set": "cpp",
-        "format": "cpp"
+        "format": "cpp",
+        "qpainter": "cpp"
     }
 }

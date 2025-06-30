@@ -4,7 +4,8 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-    setWindowTitle("Qt6 控件绘制示例");
+    ui.setupUi(this);
+    setWindowTitle("Qt 控件绘制示例");
     resize(400, 300);
 }
 
@@ -19,5 +20,5 @@ void MainWindow::paintEvent(QPaintEvent *event)
     painter.setBrush(Qt::yellow);
     painter.drawRect(50, 50, 300, 200);
     painter.setPen(Qt::red);
-    painter.drawText(rect(), Qt::AlignCenter, "Hello, Qt6!");
+    painter.drawText(rect(), Qt::AlignCenter, "Hello, Qt!");
 }

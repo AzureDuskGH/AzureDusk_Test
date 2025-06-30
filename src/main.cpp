@@ -7,7 +7,8 @@
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
     MainWindow w;
-
+    w.show(); // 确保窗体在主循环前显示
+/*
     // 配置文件路径：项目目录下的data文件夹
     DeviceManager manager("data/device_params.json");
     
@@ -59,7 +60,6 @@ int main(int argc, char *argv[]) {
             std::cerr << "错误: " << e.what() << "\n";
         }
     }
-
-    w.show();
+*/
     return app.exec();
 }

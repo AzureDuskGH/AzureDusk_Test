@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/include -I/home/adc/VS_Code_File/AzureDusk_Test_Local/include -isystem /home/adc/Qt/6.9.1/gcc_64/include -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/adc/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/adc/Qt/6.9.1/gcc_64/mkspecs/linux-g++
+CXX_INCLUDES = -I/home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager_autogen/include -I/home/adc/VS_Code_File/AzureDusk_Test_Local/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
 
 CXX_FLAGS = -g -std=gnu++17 -fPIC
 

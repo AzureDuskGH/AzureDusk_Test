@@ -69,8 +69,8 @@ include CMakeFiles/device_manager.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/device_manager.dir/flags.make
 
-device_manager_autogen/timestamp: /home/adc/Qt/6.9.1/gcc_64/libexec/moc
-device_manager_autogen/timestamp: /home/adc/Qt/6.9.1/gcc_64/libexec/uic
+device_manager_autogen/timestamp: /usr/lib/qt5/bin/moc
+device_manager_autogen/timestamp: /usr/lib/qt5/bin/uic
 device_manager_autogen/timestamp: CMakeFiles/device_manager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target device_manager"
 	/usr/bin/cmake -E cmake_autogen /home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles/device_manager_autogen.dir/AutogenInfo.json Debug
@@ -147,11 +147,9 @@ device_manager: CMakeFiles/device_manager.dir/src/main.cpp.o
 device_manager: CMakeFiles/device_manager.dir/src/DeviceManager.cpp.o
 device_manager: CMakeFiles/device_manager.dir/src/MainWindow.cpp.o
 device_manager: CMakeFiles/device_manager.dir/build.make
-device_manager: /home/adc/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1
-device_manager: /home/adc/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1
-device_manager: /usr/lib/x86_64-linux-gnu/libGLX.so
-device_manager: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-device_manager: /home/adc/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1
+device_manager: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
+device_manager: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
+device_manager: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 device_manager: CMakeFiles/device_manager.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adc/VS_Code_File/AzureDusk_Test_Local/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable device_manager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/device_manager.dir/link.txt --verbose=$(VERBOSE)
