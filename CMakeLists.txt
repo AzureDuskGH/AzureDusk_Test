@@ -1,6 +1,11 @@
 # 指定CMake的最低版本要求（3.10及以上）
 cmake_minimum_required(VERSION 3.10)
 
+# 设置默认构建类型为 Debug，便于 VS Code IntelliSense 正确关联
+if(NOT CMAKE_BUILD_TYPE)
+  set(CMAKE_BUILD_TYPE Debug)
+endif()
+
 # 项目名称
 project(DeviceManager)
 
@@ -26,15 +31,13 @@ set(SOURCES
     include/MainWindow.h
 )
 
-# 添加 ui 文件到资源追踪
-set(UIS
-    ui/MainWindow.ui
-)
+# 自动化 uic 处理 ui/MainWindow.ui，生成 include/ui_MainWindow.h
+set(UIS ui/MainWindow.ui)
 qt5_wrap_ui(UIS_HDRS ${UIS})
 add_executable(device_manager ${SOURCES} ${UIS_HDRS})
 
 # 包含目录
-# 只保留本地 include 目录，删除无效的 Qt 路径
+set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_SOURCE_DIR}/ui)
 target_include_directories(device_manager PRIVATE include)
 
 # 链接Qt5库

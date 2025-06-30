@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "device_manager.pdb"
   "device_manager_autogen/mocs_compilation.cpp"
   "device_manager_autogen/timestamp"
+  "ui_MainWindow.h"
 )
 
 # Per-language clean rules from dependency scanning.

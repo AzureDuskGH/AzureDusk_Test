@@ -5,10 +5,29 @@
             "label": "uic: 生成 ui_MainWindow.h",
             "type": "shell",
             "command": "uic ui/MainWindow.ui -o include/ui_MainWindow.h",
-            "group": "build",
             "problemMatcher": [],
             "presentation": {
                 "reveal": "always"
+            }
+        },
+        {
+            "label": "CMake Clean & Build",
+            "type": "shell",
+            "command": "cd build && rm -rf * && cmake .. && make -j$(nproc)",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "Build All (uic+cmake)",
+            "dependsOn": [
+                "uic: 生成 ui_MainWindow.h",
+                "CMake Clean & Build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
             }
         },
         {
@@ -27,11 +46,7 @@
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-            "problemMatcher": ["$gcc"],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "problemMatcher": ["$gcc"]
         }
     ]
 }

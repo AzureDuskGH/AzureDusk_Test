@@ -333,19 +333,16 @@
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
- mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
- mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+ mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
- mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
- mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
- mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+ mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
@@ -358,4 +355,6 @@
  mdp:/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
  mdp:/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
  mdp:/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+ uic:../build/device_manager_autogen/include/ui_MainWindow.h
+ uic:../build/ui_MainWindow.h
  uic:ui_MainWindow.h

@@ -26,19 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 34,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 41,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 38,
+				"line" : 41,
 				"parent" : 0
 			}
 		]
@@ -197,14 +197,15 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				6
+				6,
+				7
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				8
 			]
 		}
 	],
@@ -250,6 +251,11 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/device_manager_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "ui/MainWindow.ui",
 			"sourceGroupIndex" : 2
 		},
 		{

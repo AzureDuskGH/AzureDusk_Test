@@ -160,7 +160,11 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [ "/home/adc/VS_Code_File/AzureDusk_Test_Local/build/ui_MainWindow.h" ],
+	"UIC_SKIP" : 
+	[
+		"/home/adc/VS_Code_File/AzureDusk_Test_Local/build/ui_MainWindow.h",
+		"/home/adc/VS_Code_File/AzureDusk_Test_Local/ui/MainWindow.ui"
+	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }

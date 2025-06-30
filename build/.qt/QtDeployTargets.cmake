@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_device_manager_FILE /home/adc/VS_Code_File/AzureDusk_Test_Local/build/device_manager)
-set(__QT_DEPLOY_TARGET_device_manager_TYPE EXECUTABLE)
